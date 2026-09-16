@@ -219,316 +219,379 @@ config file_url
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter — foreign servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/foreign.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Mobile Ads filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/MobileFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Spanish/Portuguese filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/SpanishFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Spanish/Portuguese filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/SpanishFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard common Cyrillic filters ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard common Cyrillic filters ad servers — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Russian filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/RussianFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Ukrainian filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/UkrainianFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Belarusian language ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Belarusian/sections/filter.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Bulgarian language ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Bulgarian/sections/filter.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Kazakh language ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Turkish filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Turkish filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/TurkishFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard French filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard French filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/FrenchFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Japanese filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Japanese filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/JapaneseFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard German filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/GermanFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Chinese filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/ChineseFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Chinese filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/ChineseFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Dutch filter'
 	option url 'https://adguardteam.github.io/AdguardFilters/DutchFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Dutch filter — first-party servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/DutchFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList — third-party servers'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList - specific block'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/easylist/easylist_specific_block.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList - adult block'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/easylist_adult/adult_specific_block.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList — adult third-party servers'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList — adult popup servers'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers_popup.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList Germany'
 	option url 'https://raw.githubusercontent.com/easylist/easylistgermany/master/easylistgermany/easylistgermany_adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList Hebrew'
 	option url 'https://raw.githubusercontent.com/easylist/EasyListHebrew/master/adguard_hosts.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList Italy'
 	option url 'https://raw.githubusercontent.com/easylist/easylistitaly/master/easylistitaly/easylistitaly_adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList China'
 	option url 'https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList Dutch'
 	option url 'https://raw.githubusercontent.com/easylist/easylistdutch/master/easylistdutch/block_third_party_server.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - ABPindo'
 	option url 'https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - ABPindo — third-party servers'
 	option url 'https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/thirdparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdblockID'
 	option url 'https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - hostsVN'
 	option url 'https://raw.githubusercontent.com/bigdargon/hostsVN/master/filters/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - hostsVN Threat'
 	option url 'https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/threat/filter.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - filterslist-KO filter'
 	option url 'https://raw.githubusercontent.com/FilteringDev/filterslists-KO/refs/heads/master/filterslists/adblocking/filters-share/1st_domains.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - filterslist-KO filter - third-party servers'
 	option url 'https://raw.githubusercontent.com/FilteringDev/filterslists-KO/refs/heads/master/filterslists/adblocking/filters-share/3rd_domains.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Tracking Protection filter — third-party trackers'
 	option url 'https://adguardteam.github.io/AdguardFilters/SpywareFilter/sections/tracking_servers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Tracking Protection filter — first-party trackers'
 	option url 'https://adguardteam.github.io/AdguardFilters/SpywareFilter/sections/tracking_servers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Tracking Protection filter — mobile trackers'
 	option url 'https://adguardteam.github.io/AdguardFilters/SpywareFilter/sections/mobile.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyPrivacy'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyPrivacy — third-party trackers 1](https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_thirdparty.txt), [2'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_admiral.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyPrivacy — international trackers'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyPrivacy — third-party international'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_thirdparty_international.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter cryptominers'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/cryptominers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - Frellwits Swedish Filter'
 	option url 'https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - Persian Blocker Hosts'
 	option url 'https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter ad servers first-party'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Base filter ad servers foreign'
 	option url 'https://adguardteam.github.io/AdguardFilters/BaseFilter/sections/foreign.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList ad servers'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - EasyList adult ad servers popup'
 	option url 'https://raw.githubusercontent.com/easylist/easylist/master/easylist_adult/adult_adservers_popup.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Mobile Ads filter ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/MobileFilter/sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard common Cyrillic filters ad servers'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - AdGuard Russian filter ad servers first-party'
 	option url 'https://adguardteam.github.io/AdguardFilters/CyrillicFilters/RussianFilter/sections/adservers_firstparty.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - Liste FR'
 	option url 'https://raw.githubusercontent.com/easylist/listefr/master/liste_fr.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - ABPindo ad servers'
 	option url 'https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/adservers.txt'
 
 config file_url
 	option action 'block'
+	option enabled '0'
 	option name 'AdGuardTeam - Sources - ABPindo ad servers third-party'
 	option url 'https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/src/advert/thirdparty.txt'
 
