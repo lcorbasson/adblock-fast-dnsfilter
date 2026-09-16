@@ -559,7 +559,7 @@ config file_url
 
 config file_url
 	option action 'block'
-	option name 'EasyList - Dandelion Sprout's Nordic Filters'
+	option name 'EasyList - Dandelion Sprout s Nordic Filters'
 	option url 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt'
 
 config file_url
