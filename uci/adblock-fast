@@ -45,21 +45,25 @@ config file_url
 	option action 'block'
 	option name 'Hagezi - Pro'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt'
+	option size '4327742'
 
 config file_url
 	option action 'block'
 	option name 'AdguardTeam - CNAME Trackers'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt'
+	option size '6996260'
 
 config file_url
 	option action 'block'
 	option name 'OISD - Big'
 	option url 'https://big.oisd.nl/'
+	option size '5683546'
 
 config file_url
 	option action 'block'
 	option name 'OISD - NSFW'
 	option url 'https://nsfw.oisd.nl/domainswild2'
+	option size '8534432'
 
 config file_url
 	option action 'block'
@@ -71,106 +75,127 @@ config file_url
 	option action 'block'
 	option name 'StevenBlack - Unified hosts + fakenews + porn + social'
 	option url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
+	option size '4496251'
 
 config file_url
 	option action 'block'
 	option name '1Hosts - Lite'
 	option url 'https://o0.pages.dev/Lite/domains.txt'
+	option size '69375'
 
 config file_url
 	option action 'block'
 	option name 'Bongochong - Combined Privacy Block Lists (TLD Optimized)'
 	option url 'https://cdn.jsdelivr.net/gh/bongochong/CombinedPrivacyBlockLists/NoFormatting/cpbl-ctld.txt'
+	option size '4429609'
 
 config file_url
 	option action 'block'
 	option name 'CERT Polska - Dangerous Websites'
 	option url 'https://hole.cert.pl/domains/v2/domains.txt'
+	option size '2725943'
 
 config file_url
 	option action 'block'
 	option name 'Kboghdady - YouTube Ads DNS'
 	option url 'https://cdn.jsdelivr.net/gh/kboghdady/youTube_ads_4_pi-hole/black.list'
+	option size '520216'
 
 config file_url
 	option action 'block'
 	option name 'AdguardTeam - CNAME Clickthroughs'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_clickthroughs_justdomains.txt'
+	option size '634820'
 
 config file_url
 	option action 'block'
 	option name 'SomeoneWhoCares - Hosts'
 	option url 'https://someonewhocares.org/hosts/hosts'
+	option size '393439'
 
 config file_url
 	option action 'block'
 	option name 'WinHelp2002 MVPS - Hosts'
 	option url 'https://winhelp2002.mvps.org/hosts.txt'
+	option size '334861'
 
 config file_url
 	option action 'block'
 	option name 'AdAway - Hosts'
 	option url 'https://adaway.org/hosts.txt'
+	option size '243454'
 
 config file_url
 	option action 'block'
 	option name 'AdguardTeam - CNAME Ads'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt'
+	option size '269962'
 
 config file_url
 	option action 'block'
 	option name 'AdguardTeam - CNAME Microsites'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_microsites_justdomains.txt'
+	option size '577234'
 
 config file_url
 	option action 'block'
 	option name 'Yoyo.org - Hosts'
 	option url 'https://pgl.yoyo.org/as/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext'
+	option size '95221'
 
 config file_url
 	option action 'block'
 	option name 'Hoshsadiq - NoCoin Adblock List'
 	option url 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'
+	option size '8150'
 
 config file_url
 	option action 'block'
 	option name 'UT1 Blacklist - Adult - Domains (0)'
 	option url 'https://raw.githubusercontent.com/olbat/ut1-blacklists/refs/heads/master/blacklists/adult/domains.0'
+	option size '52428801'
 
 config file_url
 	option action 'block'
 	option name 'UT1 Blacklist - Adult - Domains (1)'
 	option url 'https://raw.githubusercontent.com/olbat/ut1-blacklists/refs/heads/master/blacklists/adult/domains.1'
+	option size '52428801'
 
 config file_url
 	option action 'block'
 	option name 'UT1 Blacklist - Adult - Domains (2)'
 	option url 'https://raw.githubusercontent.com/olbat/ut1-blacklists/refs/heads/master/blacklists/adult/domains.2'
+	option size '19672168'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Threat Intelligence Feeds'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt'
+	option size '43233240'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - NSFW'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt'
+	option size '1153520'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Gambling'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt'
+	option size '7071530'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Fake'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt'
+	option size '291653'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Pop-Up Ads'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt'
+	option size '849361'
 
 config file_url
 	option action 'allow'
@@ -181,6 +206,7 @@ config file_url
 	option action 'allow'
 	option name 'AdguardTeam - DNS filter - Exclusions'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/refs/heads/master/Filters/exclusions.txt'
+	option size '40666'
 
 config file_url
 	option action 'block'
@@ -191,31 +217,37 @@ config file_url
 	option action 'block'
 	option name 'AdguardTeam - DNS filter'
 	option url 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
+	option size '4363925'
 
 config file_url
 	option action 'block'
 	option name 'Mullvad - DNS blocklists - Adult'
 	option url 'https://raw.githubusercontent.com/mullvad/dns-blocklists/refs/heads/main/files/adult'
+	option size '39'
 
 config file_url
 	option action 'block'
 	option name 'Mullvad - DNS blocklists - Ads'
 	option url 'https://raw.githubusercontent.com/mullvad/dns-blocklists/refs/heads/main/files/adblock'
+	option size '94'
 
 config file_url
 	option action 'block'
 	option name 'Mullvad - DNS blocklists - Trackers'
 	option url 'https://raw.githubusercontent.com/mullvad/dns-blocklists/refs/heads/main/files/tracker'
+	option size '332'
 
 config file_url
 	option action 'block'
 	option name 'Frellwit - Filter lists'
 	option url 'https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt'
+	option size '231494'
 
 config file_url
 	option action 'block'
 	option name 'URLhaus - Hostfile'
 	option url 'https://urlhaus.abuse.ch/downloads/hostfile'
+	option size '11945'
 
 config file_url
 	option action 'block'
@@ -599,21 +631,25 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList'
 	option url 'https://easylist.to/easylist/easylist.txt'
+	option size '2140587'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyPrivacy'
 	option url 'https://easylist.to/easylist/easyprivacy.txt'
+	option size '1502986'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - ABPindo'
 	option url 'https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt'
+	option size '314335'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - ABPVN List'
 	option url 'https://abpvn.com/filter/abpvn-IPl6HE.txt'
+	option size '44430'
 
 config file_url
 	option action 'block'
@@ -624,71 +660,85 @@ config file_url
 	option action 'block'
 	option name 'EasyList - Dandelion Sprout s Nordic Filters'
 	option url 'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt'
+	option size '401674'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList China'
 	option url 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
+	option size '545959'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Czech and Slovak'
 	option url 'https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt'
+	option size '21858'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Dutch'
 	option url 'https://easylist-downloads.adblockplus.org/easylistdutch.txt'
+	option size '69005'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Germany'
 	option url 'https://easylist.to/easylistgermany/easylistgermany.txt'
+	option size '276593'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Hebrew'
 	option url 'https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt'
+	option size '213144'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Italy'
 	option url 'https://easylist-downloads.adblockplus.org/easylistitaly.txt'
+	option size '190123'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Lithuania'
 	option url 'https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt'
+	option size '54246'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Polish'
 	option url 'https://easylist-downloads.adblockplus.org/easylistpolish.txt'
+	option size '193496'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Portuguese'
 	option url 'https://easylist-downloads.adblockplus.org/easylistportuguese.txt'
+	option size '74849'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Spanish'
 	option url 'https://easylist-downloads.adblockplus.org/easylistspanish.txt'
+	option size '128090'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList IndianList'
 	option url 'https://easylist-downloads.adblockplus.org/indianlist.txt'
+	option size '646547'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyList KoreanList'
 	option url 'https://easylist-downloads.adblockplus.org/koreanlist.txt'
+	option size '46559'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - Latvian List'
 	option url 'https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt'
+	option size '16198'
 
 config file_url
 	option action 'block'
@@ -699,6 +749,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - Liste FR'
 	option url 'https://easylist-downloads.adblockplus.org/liste_fr.txt'
+	option size '422843'
 
 config file_url
 	option action 'block'
@@ -714,4 +765,5 @@ config file_url
 	option action 'block'
 	option name 'EasyList - Adblock Warning Removal List'
 	option url 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt'
+	option size '72737'
 
