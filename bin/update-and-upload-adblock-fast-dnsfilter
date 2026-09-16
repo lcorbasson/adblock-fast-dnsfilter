@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+if (set -o pipefail 2>/dev/null); then
+    set -o pipefail
+fi
+
+# Update
+/etc/init.d/adblock-fast dl
+
+# Upload
+cd /var/run/adblock-fast
+cp -a "$0" bin/
+git add bin/
+git add dnsmasq.filters || true
+git add uci/ || true
+git commit -m "$(date -I)"
+git push -u origin main
+
