@@ -4,6 +4,9 @@ if (set -o pipefail 2>/dev/null); then
     set -o pipefail
 fi
 
+# Start time
+date -Iseconds
+
 # Update
 /etc/init.d/adblock-fast dl
 
@@ -15,4 +18,7 @@ git add dnsmasq.filters || true
 git add uci/ || true
 git commit -m "$(date -I)"
 git push -u origin main
+
+# End time
+date -Iseconds
 
