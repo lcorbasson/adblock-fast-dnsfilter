@@ -42,19 +42,19 @@ config adblock-fast 'config'
 	list allowed_domain 'urlhaus.abuse.ch'
 
 config file_url
+	option action 'block'
 	option name 'Hagezi - Pro'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'AdguardTeam - CNAME Trackers'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'OISD - Big'
 	option url 'https://big.oisd.nl/'
-	option action 'block'
 
 config file_url
 	option action 'block'
@@ -62,10 +62,10 @@ config file_url
 	option url 'https://nsfw.oisd.nl/domainswild2'
 
 config file_url
-	option name 'StevenBlack - Unified hosts'
-	option url 'https://cdn.jsdelivr.net/gh/StevenBlack/hosts/hosts'
 	option action 'block'
 	option enabled '0'
+	option name 'StevenBlack - Unified hosts'
+	option url 'https://cdn.jsdelivr.net/gh/StevenBlack/hosts/hosts'
 
 config file_url
 	option action 'block'
@@ -73,64 +73,64 @@ config file_url
 	option url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
 
 config file_url
+	option action 'block'
 	option name '1Hosts - Lite'
 	option url 'https://o0.pages.dev/Lite/domains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'Bongochong - Combined Privacy Block Lists (TLD Optimized)'
 	option url 'https://cdn.jsdelivr.net/gh/bongochong/CombinedPrivacyBlockLists/NoFormatting/cpbl-ctld.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'CERT Polska - Dangerous Websites'
 	option url 'https://hole.cert.pl/domains/v2/domains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'Kboghdady - YouTube Ads DNS'
 	option url 'https://cdn.jsdelivr.net/gh/kboghdady/youTube_ads_4_pi-hole/black.list'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'AdguardTeam - CNAME Clickthroughs'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_clickthroughs_justdomains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'SomeoneWhoCares - Hosts'
 	option url 'https://someonewhocares.org/hosts/hosts'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'WinHelp2002 MVPS - Hosts'
 	option url 'https://winhelp2002.mvps.org/hosts.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'AdAway - Hosts'
 	option url 'https://adaway.org/hosts.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'AdguardTeam - CNAME Ads'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'AdguardTeam - CNAME Microsites'
 	option url 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_microsites_justdomains.txt'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'Yoyo.org - Hosts'
 	option url 'https://pgl.yoyo.org/as/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext'
-	option action 'block'
 
 config file_url
+	option action 'block'
 	option name 'Hoshsadiq - NoCoin Adblock List'
 	option url 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'
-	option action 'block'
 
 config file_url
 	option action 'block'
