@@ -4,7 +4,7 @@ if (set -o pipefail 2>/dev/null); then
     set -o pipefail
 fi
 
-# Start time
+# Log start time
 date -Iseconds
 
 # Update
@@ -12,13 +12,20 @@ date -Iseconds
 
 # Upload
 cd /var/run/adblock-fast
-cp -a "$0" bin/
-git add bin/
-git add dnsmasq.filters || true
+git pull || true
+cp -a "$(readlink -f "$0")" bin/
+git add bin/ || true
+if [ -f dnsmasq.filters ]; then
+	git add dnsmasq.filters || true
+else
+	# If filters are missing, restore previous filters and reload dnsmasq
+	git restore dnsmasq.filters || true
+	/etc/init.d/dnsmasq reload
+fi
 git add uci/ || true
 git commit -m "$(date -I)"
-git push -u origin main
+git push -u origin main || true
 
-# End time
+# Log end time
 date -Iseconds
 
