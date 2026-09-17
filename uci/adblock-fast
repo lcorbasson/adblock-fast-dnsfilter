@@ -57,13 +57,13 @@ config file_url
 	option action 'block'
 	option name 'OISD - Big'
 	option url 'https://big.oisd.nl/'
-	option size '5683546'
+	option size '5695804'
 
 config file_url
 	option action 'block'
 	option name 'OISD - NSFW'
 	option url 'https://nsfw.oisd.nl/domainswild2'
-	option size '8534432'
+	option size '8745254'
 
 config file_url
 	option action 'block'
@@ -75,7 +75,7 @@ config file_url
 	option action 'block'
 	option name 'StevenBlack - Unified hosts + fakenews + porn + social'
 	option url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
-	option size '4496251'
+	option size '4568720'
 
 config file_url
 	option action 'block'
@@ -93,7 +93,7 @@ config file_url
 	option action 'block'
 	option name 'CERT Polska - Dangerous Websites'
 	option url 'https://hole.cert.pl/domains/v2/domains.txt'
-	option size '2725943'
+	option size '2723991'
 
 config file_url
 	option action 'block'
@@ -111,7 +111,7 @@ config file_url
 	option action 'block'
 	option name 'SomeoneWhoCares - Hosts'
 	option url 'https://someonewhocares.org/hosts/hosts'
-	option size '393439'
+	option size '393557'
 
 config file_url
 	option action 'block'
@@ -217,7 +217,7 @@ config file_url
 	option action 'block'
 	option name 'AdguardTeam - DNS filter'
 	option url 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
-	option size '4363925'
+	option size '4368275'
 
 config file_url
 	option action 'block'
@@ -247,7 +247,7 @@ config file_url
 	option action 'block'
 	option name 'URLhaus - Hostfile'
 	option url 'https://urlhaus.abuse.ch/downloads/hostfile'
-	option size '11945'
+	option size '12485'
 
 config file_url
 	option action 'block'
@@ -631,13 +631,13 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList'
 	option url 'https://easylist.to/easylist/easylist.txt'
-	option size '2140587'
+	option size '2144884'
 
 config file_url
 	option action 'block'
 	option name 'EasyList - EasyPrivacy'
 	option url 'https://easylist.to/easylist/easyprivacy.txt'
-	option size '1502986'
+	option size '1503159'
 
 config file_url
 	option action 'block'
@@ -649,7 +649,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - ABPVN List'
 	option url 'https://abpvn.com/filter/abpvn-IPl6HE.txt'
-	option size '44430'
+	option size '44949'
 
 config file_url
 	option action 'block'
@@ -666,7 +666,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList China'
 	option url 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
-	option size '545959'
+	option size '546067'
 
 config file_url
 	option action 'block'
@@ -684,7 +684,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Germany'
 	option url 'https://easylist.to/easylistgermany/easylistgermany.txt'
-	option size '276593'
+	option size '276590'
 
 config file_url
 	option action 'block'
@@ -696,7 +696,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Italy'
 	option url 'https://easylist-downloads.adblockplus.org/easylistitaly.txt'
-	option size '190123'
+	option size '190269'
 
 config file_url
 	option action 'block'
@@ -708,7 +708,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList Polish'
 	option url 'https://easylist-downloads.adblockplus.org/easylistpolish.txt'
-	option size '193496'
+	option size '193557'
 
 config file_url
 	option action 'block'
@@ -726,7 +726,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList IndianList'
 	option url 'https://easylist-downloads.adblockplus.org/indianlist.txt'
-	option size '646547'
+	option size '646780'
 
 config file_url
 	option action 'block'
