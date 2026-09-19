@@ -13,13 +13,13 @@ date -Iseconds
 # Upload
 cd /var/run/adblock-fast
 git pull || true
-cp -a "$(readlink -f "$0")" bin/ || true
+cp -a "$(readlink -f "$0")" bin/
 git add bin/ || true
-if [ -f dnsmasq.servers ]; then
-	git add dnsmasq.servers || true
+if [ -f dnsmasq.filters ]; then
+	git add dnsmasq.filters || true
 else
 	# If filters are missing, restore previous filters and reload dnsmasq
-	git restore dnsmasq.servers || true
+	git restore dnsmasq.filters || true
 	/etc/init.d/dnsmasq reload
 fi
 git add uci/ || true
