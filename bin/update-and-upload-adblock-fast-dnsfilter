@@ -7,6 +7,12 @@ fi
 # Get the running script's filename
 script_filename="$(readlink -f "$0")"
 
+# Make /tmp big enough
+tmp_size_mb="$(df -m /tmp | sed -e '1d;s/^tmpfs *\([0-9][0-9]*\) .*/\1/')"
+if [ "$tmp_size_mb" -lt 2048 ]; then
+	mount -t tmpfs -o remount,size=2G tmpfs /tmp
+fi
+
 # Change to adblock-fast's working directory
 cd /var/run/adblock-fast
 
