@@ -4,32 +4,38 @@ if (set -o pipefail 2>/dev/null); then
     set -o pipefail
 fi
 
+# Get the running script's filename
+script_filename="$(readlink -f "$0")"
+
 # Change to adblock-fast's working directory
 cd /var/run/adblock-fast
 
 # Log start time
-date -Iseconds
+start_time="$(date -Iseconds)"
+echo "$start_time"
 
 # Update
 /etc/init.d/adblock-fast dl
 
 # Save changes
 git pull || true
-cp -a "$(readlink -f "$0")" bin/
+cp -a "$script_filename" bin/ || true
 git add bin/ || true
 if [ -f dnsmasq.filters ]; then
 	git add dnsmasq.filters || true
-	date -Iseconds | tee latest_successful_run.log
+	echo "$start_time" | tee latest_successful_run.log
 	git add latest_successful_run.log
 else
 	# If filters are missing, restore previous filters and reload dnsmasq
 	git restore dnsmasq.filters || true
 	/etc/init.d/dnsmasq reload
-	date -Iseconds
 fi
 git add uci/ || true
 
 # Upload
 git commit -m "$(date -I)"
 git push -u origin main || true
+
+# Log end time
+date -Iseconds
 
