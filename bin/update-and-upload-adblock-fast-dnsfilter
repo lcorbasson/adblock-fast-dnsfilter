@@ -21,13 +21,13 @@ echo "$start_time"
 git pull || true
 cp -a "$script_filename" bin/ || true
 git add bin/ || true
-if [ -f dnsmasq.filters ]; then
-	git add dnsmasq.filters || true
+if [ -f dnsmasq.servers ]; then
+	git add dnsmasq.servers || true
 	echo "$start_time" | tee latest_successful_run.log
 	git add latest_successful_run.log
 else
 	# If filters are missing, restore previous filters and reload dnsmasq
-	git restore dnsmasq.filters || true
+	git restore dnsmasq.servers || true
 	/etc/init.d/dnsmasq reload
 fi
 git add uci/ || true
