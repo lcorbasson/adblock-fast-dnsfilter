@@ -40,7 +40,7 @@ fi
 git add uci/ || true
 
 # Upload
-git commit -m "$(date -I)"
+git commit -m "$(date -Idate)"
 git push -u origin main || true
 
 # Log end time
