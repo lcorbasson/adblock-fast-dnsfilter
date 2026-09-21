@@ -8,9 +8,10 @@ fi
 script_filename="$(readlink -f "$0")"
 
 # Make /tmp big enough
+min_tmp_size_mb="2048"
 tmp_size_mb="$(df -m /tmp | sed -e '1d;s/^tmpfs *\([0-9][0-9]*\) .*/\1/')"
-if [ "$tmp_size_mb" -lt 2048 ]; then
-	mount -t tmpfs -o remount,size=2G tmpfs /tmp
+if [ "$tmp_size_mb" -lt "$min_tmp_size_mb" ]; then
+	mount -t tmpfs -o "remount,size=${min_tmp_size_mb}M" tmpfs /tmp
 fi
 
 # Change to adblock-fast's working directory

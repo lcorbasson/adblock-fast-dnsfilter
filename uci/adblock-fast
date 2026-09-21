@@ -96,7 +96,7 @@ config file_url
 	option action 'block'
 	option name 'CERT Polska - Dangerous Websites'
 	option url 'https://hole.cert.pl/domains/v2/domains.txt'
-	option size '2662694'
+	option size '2662823'
 
 config file_url
 	option action 'block'
@@ -250,7 +250,7 @@ config file_url
 	option action 'block'
 	option name 'URLhaus - Hostfile'
 	option url 'https://urlhaus.abuse.ch/downloads/hostfile'
-	option size '11338'
+	option size '11404'
 
 config file_url
 	option action 'block'
@@ -634,7 +634,7 @@ config file_url
 	option action 'block'
 	option name 'EasyList - EasyList'
 	option url 'https://easylist.to/easylist/easylist.txt'
-	option size '2178837'
+	option size '2178991'
 
 config file_url
 	option action 'block'
