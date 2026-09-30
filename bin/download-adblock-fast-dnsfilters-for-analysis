@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+set -o pipefail 2>/dev/null || true
+
+ROOT_DIR="$(dirname "$(dirname "$(readlink -f "$0")")")"
+if [ ! -f "$ROOT_DIR/uci/adblock-fast" ]; then
+	ROOT_DIR="/var/run/adblock-fast"
+fi
+	
+cd "$ROOT_DIR"
+mkdir -p "downloads"
+grep -E '^\s*option\s+url\s+' "$ROOT_DIR/uci/adblock-fast" | while read _o _u url; do
+	url="${url#\'}"
+	url="${url%\'}"
+	file="${url#*://}"
+	file="${file%/}"
+	file="${file//\//⧸}"
+	wget "$url" -O "downloads/$file"
+done
+
