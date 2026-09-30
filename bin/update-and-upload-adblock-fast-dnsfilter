@@ -1,8 +1,6 @@
 #!/bin/sh
 set -e
-if (set -o pipefail 2>/dev/null); then
-    set -o pipefail
-fi
+set -o pipefail 2>/dev/null || true
 
 # Backup copy of the Git repository
 GIT_BACKUP_DIR="/mnt/daten1/adblock-fast-dnsfilter"
