@@ -1,0 +1,26 @@
+#!/bin/sh
+set -e
+set -o pipefail 2>/dev/null || true
+
+ROOT_DIR="$(dirname "$(dirname "$(readlink -f "$0")")")"
+if [ ! -f "$ROOT_DIR/uci/adblock-fast" ]; then
+	ROOT_DIR="/var/run/adblock-fast"
+fi
+
+cd "$ROOT_DIR"
+mkdir -p "filter"
+grep -E '^\s*option\s+dns\s+' "$ROOT_DIR/uci/adblock-fast" | while read _o _u filter_file; do
+	filter_file="${filter_file#[\'\"]}"
+	filter_file="${filter_file%[\'\"]}"
+	rm "filter/$filter_file.@"* || true
+	if [ "$filter_file" == "dnsmasq.servers" ]; then
+		grep -E '/#$' "$filter_file" | sort > "filter/$filter_file.@#"
+		cut -c9 "$filter_file" | tr 'A-Z' 'a-z' | sort -u | grep -e '[[:alnum:]]' | while read first_char; do
+			grep -iE 'server=/'"$first_char"'.*/$' "$filter_file" | tr 'A-Z' 'a-z' | sort > "filter/$filter_file.@$first_char"
+		done
+	else
+		echo "Not implemented: $filter_file" >&2
+		exit 1
+	fi
+done
+

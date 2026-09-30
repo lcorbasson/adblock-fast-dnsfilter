@@ -1,4 +1,8 @@
+# Temporary files
 *.old
 *.new
 *.tmp
+# Analysis files
 downloads/
+# Too big to commit (split in filter/)
+dnsmasq.servers
