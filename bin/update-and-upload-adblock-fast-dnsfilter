@@ -4,6 +4,9 @@ if (set -o pipefail 2>/dev/null); then
     set -o pipefail
 fi
 
+# Backup copy of the Git repository
+GIT_BACKUP_DIR="/mnt/daten1/adblock-fast-dnsfilter"
+
 # Get the running script's filename
 script_filename="$(readlink -f "$0")"
 
@@ -16,6 +19,14 @@ fi
 
 # Change to adblock-fast's working directory
 cd /var/run/adblock-fast
+
+# Check if we are in a Git repository (not the case if we had a restart that wiped /var)
+if git status; then
+	echo "Git repository: OK"
+else
+	cp -a "$GIT_BACKUP_DIR/." .
+	git pull || true
+fi
 
 # Log start time
 start_time="$(date -Iseconds)"
@@ -42,6 +53,10 @@ git add uci/ || true
 # Upload
 git commit -m "$(date -Idate)"
 git push origin main || true
+
+# Update the Git repository backup
+cd "$GIT_BACKUP_DIR"
+git pull
 
 # Log end time
 date -Iseconds
