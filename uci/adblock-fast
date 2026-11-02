@@ -48,7 +48,7 @@ config file_url
 	option action 'block'
 	option name 'Hagezi - Pro'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt'
-	option size '4080979'
+	option size '4054292'
 
 config file_url
 	option action 'block'
@@ -60,13 +60,13 @@ config file_url
 	option action 'block'
 	option name 'OISD - Big'
 	option url 'https://big.oisd.nl/'
-	option size '5334605'
+	option size '5238602'
 
 config file_url
 	option action 'block'
 	option name 'OISD - NSFW'
 	option url 'https://nsfw.oisd.nl/domainswild2'
-	option size '8663538'
+	option size '8595347'
 
 config file_url
 	option action 'block'
@@ -78,7 +78,7 @@ config file_url
 	option action 'block'
 	option name 'StevenBlack - Unified hosts + fakenews + porn + social'
 	option url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts'
-	option size '4498672'
+	option size '4513991'
 
 config file_url
 	option action 'block'
@@ -96,7 +96,7 @@ config file_url
 	option action 'block'
 	option name 'CERT Polska - Dangerous Websites'
 	option url 'https://hole.cert.pl/domains/v2/domains.txt'
-	option size '2585113'
+	option size '2583429'
 
 config file_url
 	option action 'block'
@@ -174,31 +174,31 @@ config file_url
 	option action 'block'
 	option name 'Hagezi - Threat Intelligence Feeds'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif-onlydomains.txt'
-	option size '33006046'
+	option size '32707460'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - NSFW'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw-onlydomains.txt'
-	option size '1427178'
+	option size '1430171'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Gambling'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling-onlydomains.txt'
-	option size '11039241'
+	option size '11056831'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Fake'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake-onlydomains.txt'
-	option size '302976'
+	option size '302826'
 
 config file_url
 	option action 'block'
 	option name 'Hagezi - Pop-Up Ads'
 	option url 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads-onlydomains.txt'
-	option size '891235'
+	option size '890186'
 
 config file_url
 	option action 'allow'
@@ -220,7 +220,7 @@ config file_url
 	option action 'block'
 	option name 'AdguardTeam - DNS filter'
 	option url 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
-	option size '4550394'
+	option size '4558213'
 
 config file_url
 	option action 'block'
@@ -244,7 +244,7 @@ config file_url
 	option action 'block'
 	option name 'Frellwit - Filter lists'
 	option url 'https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt'
-	option size '231948'
+	option size '232090'
 
 config file_url
 	option action 'block'
