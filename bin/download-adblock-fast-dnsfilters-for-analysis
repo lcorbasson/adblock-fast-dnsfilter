@@ -15,6 +15,6 @@ grep -E '^\s*option\s+url\s+' "$ROOT_DIR/uci/adblock-fast" | while read _o _u ur
 	file="${url#*://}"
 	file="${file%/}"
 	file="${file//\//⧸}"
-	wget "$url" -O "downloads/$file"
+	wget "$url" -O "downloads/$file" || echo "$url FAILED" >&2
 done
 
